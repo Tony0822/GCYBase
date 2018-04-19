@@ -10,6 +10,8 @@
 		0B06DF9FD5D97C3ACE90F24B9ACCB633 /* Pods-GCYBase_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C43382DB1490F904DB19AA9D68C7049 /* Pods-GCYBase_Tests-dummy.m */; };
 		2AF386D4AC7D857462AD53C7DDC68108 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE5A863AE2E7CA08D4EADF3F8D08423 /* ReplaceMe.m */; };
 		3464B99794AFF9D06E762592C2D364C7 /* GCYBase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0436507C7C8C3F751736BE8FE0AB8BEC /* GCYBase-dummy.m */; };
+		3E40C80E2088879100351B26 /* BaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E40C80C2088879100351B26 /* BaseViewController.h */; };
+		3E40C80F2088879100351B26 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E40C80D2088879100351B26 /* BaseViewController.m */; };
 		58254A755A998EB9348CB59E155EC986 /* GCYBase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A474B80CB2545D415D9C43E4C5028288 /* GCYBase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		60B11C237E86BD0DB8520BD2C9D8243B /* Pods-GCYBase_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DDB4A99EBF73D64712CD5D9549FEDF6 /* Pods-GCYBase_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A67D90A1E2A0B444E7B9919B94750515 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
@@ -27,27 +29,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0056D8EE4477995ECFCAA1E0B6DDB4F8 /* GCYBase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GCYBase.modulemap; sourceTree = "<group>"; };
+		0056D8EE4477995ECFCAA1E0B6DDB4F8 /* GCYBase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = GCYBase.modulemap; sourceTree = "<group>"; };
 		0436507C7C8C3F751736BE8FE0AB8BEC /* GCYBase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GCYBase-dummy.m"; sourceTree = "<group>"; };
 		0DE5A863AE2E7CA08D4EADF3F8D08423 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = GCYBase/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		1C43382DB1490F904DB19AA9D68C7049 /* Pods-GCYBase_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GCYBase_Tests-dummy.m"; sourceTree = "<group>"; };
 		32678F5C04B87FB4C4375EB59DFA5A10 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B3C1F7AD11FCFD2A96A7D622CBD014F /* GCYBase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GCYBase.xcconfig; sourceTree = "<group>"; };
 		3D19F6ABBF9410D081818C04238DDA3F /* Pods-GCYBase_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GCYBase_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3E40C80C2088879100351B26 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BaseViewController.h; path = GCYBase/Classes/BaseViewController.h; sourceTree = "<group>"; };
+		3E40C80D2088879100351B26 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BaseViewController.m; path = GCYBase/Classes/BaseViewController.m; sourceTree = "<group>"; };
 		509FCC1182EA8EC38D85642F4AFC41F3 /* Pods-GCYBase_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GCYBase_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6AA8632FB80DC718D9C5122A53502450 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7DDB4A99EBF73D64712CD5D9549FEDF6 /* Pods-GCYBase_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GCYBase_Tests-umbrella.h"; sourceTree = "<group>"; };
 		8A0848A51E2874FCF85FEF1F6E1D44BB /* Pods-GCYBase_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GCYBase_Tests-resources.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A474B80CB2545D415D9C43E4C5028288 /* GCYBase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GCYBase-umbrella.h"; sourceTree = "<group>"; };
 		CD0662D365C2850EB24B98EC5EB9A267 /* Pods-GCYBase_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GCYBase_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		CF20AB467E421F3709C31283E0C86AA8 /* Pods-GCYBase_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GCYBase_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		D92AA918B6E92EBE8B267BE062828756 /* Pods_GCYBase_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GCYBase_Tests.framework; path = "Pods-GCYBase_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D92AA918B6E92EBE8B267BE062828756 /* Pods_GCYBase_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GCYBase_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E599B26940A1D5EAC3AFB536C7521EA7 /* GCYBase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GCYBase-prefix.pch"; sourceTree = "<group>"; };
 		F0489902311169C966DCED1827B7B537 /* Pods-GCYBase_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GCYBase_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F521EA307503A796DCE4E37C5D2B92E0 /* GCYBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GCYBase.framework; path = GCYBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FBBB88A3EEC48FF76F4C02669B8FC962 /* Pods-GCYBase_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GCYBase_Tests.modulemap"; sourceTree = "<group>"; };
+		F521EA307503A796DCE4E37C5D2B92E0 /* GCYBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GCYBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBBB88A3EEC48FF76F4C02669B8FC962 /* Pods-GCYBase_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-GCYBase_Tests.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 			isa = PBXGroup;
 			children = (
 				0DE5A863AE2E7CA08D4EADF3F8D08423 /* ReplaceMe.m */,
+				3E40C80C2088879100351B26 /* BaseViewController.h */,
+				3E40C80D2088879100351B26 /* BaseViewController.m */,
 				7DF3E80E14EAA506D9CEF14D710E7966 /* Support Files */,
 			);
 			name = GCYBase;
@@ -179,6 +185,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E40C80E2088879100351B26 /* BaseViewController.h in Headers */,
 				58254A755A998EB9348CB59E155EC986 /* GCYBase-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3464B99794AFF9D06E762592C2D364C7 /* GCYBase-dummy.m in Sources */,
+				3E40C80F2088879100351B26 /* BaseViewController.m in Sources */,
 				2AF386D4AC7D857462AD53C7DDC68108 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
