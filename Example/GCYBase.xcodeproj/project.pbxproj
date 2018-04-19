@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		22942C66BCFA8A639BAB9AAD /* GCYBase.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = GCYBase.podspec; path = ../GCYBase.podspec; sourceTree = "<group>"; };
+		22942C66BCFA8A639BAB9AAD /* GCYBase.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GCYBase.podspec; path = ../GCYBase.podspec; sourceTree = "<group>"; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -27,8 +27,8 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		B8C22DB5FEBA0643EA8128ED /* Pods-GCYBase_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GCYBase_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GCYBase_Tests/Pods-GCYBase_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		C1444D7E8DDC2C01715C3BF1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		D8F64668B7B957FFFDA4382D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C1444D7E8DDC2C01715C3BF1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D8F64668B7B957FFFDA4382D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E3D997AF6BB87D01FE21E291 /* Pods_GCYBase_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GCYBase_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8FECA2C69DCB3C1FBF9DB2A /* Pods-GCYBase_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GCYBase_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GCYBase_Tests/Pods-GCYBase_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -151,6 +151,7 @@
 				ORGANIZATIONNAME = Tony0822;
 				TargetAttributes = {
 					6003F5AD195388D20070C39A = {
+						DevelopmentTeam = LT4PPLS37C;
 						TestTargetID = 6003F589195388D20070C39A;
 					};
 				};
@@ -294,7 +295,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -327,7 +328,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -338,6 +339,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E8FECA2C69DCB3C1FBF9DB2A /* Pods-GCYBase_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = LT4PPLS37C;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -361,6 +363,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B8C22DB5FEBA0643EA8128ED /* Pods-GCYBase_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = LT4PPLS37C;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
