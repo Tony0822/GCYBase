@@ -1,0 +1,6 @@
+framework module Pods_GCYBase_Tests {
+  umbrella header "Pods-GCYBase_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
