@@ -91,8 +91,7 @@
 }
 
 - (void)setPosx:(float)x{
-    self.frame = CGRectMake(x, self.frame.origin.y, self.frame.size.width
-                            , self.frame.size.height);
+    self.frame = CGRectMake(x, self.frame.origin.y, self.frame.size.width, self.frame.size.height);
 }
 
 - (void)setPosy:(float)y{
@@ -100,7 +99,7 @@
 }
 
 - (CGPoint)brPos{
-    return CGPointMake(self.frame.origin.x+self.frame.size.width, self.frame.origin.y+self.frame.size.height);
+    return CGPointMake(self.frame.origin.x + self.frame.size.width, self.frame.origin.y + self.frame.size.height);
 }
 
 - (CGPoint)centerPos
