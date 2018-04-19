@@ -22,7 +22,7 @@ pod 'GCYBase'
 
 ## Author
 
-Tony0822, gaochongyang@enmonster.com
+gaochongyang, constyang@163.com
 
 ## License
 
