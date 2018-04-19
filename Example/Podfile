@@ -1,0 +1,6 @@
+use_frameworks!
+target 'GCYBase_Tests' do
+  pod 'GCYBase', :path => '../'
+  
+  
+end
