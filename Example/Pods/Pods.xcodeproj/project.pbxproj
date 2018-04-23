@@ -14,6 +14,8 @@
 		3E818C9B208DB56700AFDC8E /* BaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E818C95208DB56700AFDC8E /* BaseViewController.h */; };
 		3E818C9C208DB56700AFDC8E /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E818C97208DB56700AFDC8E /* UIView+Frame.m */; };
 		3E818C9D208DB56700AFDC8E /* UIView+Frame.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E818C98208DB56700AFDC8E /* UIView+Frame.h */; };
+		3E818CA0208DBCE400AFDC8E /* GCYNetworkConfigure.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E818C9E208DBCE400AFDC8E /* GCYNetworkConfigure.h */; };
+		3E818CA1208DBCE400AFDC8E /* GCYNetworkConfigure.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E818C9F208DBCE400AFDC8E /* GCYNetworkConfigure.m */; };
 		58254A755A998EB9348CB59E155EC986 /* GCYBase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A474B80CB2545D415D9C43E4C5028288 /* GCYBase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		60B11C237E86BD0DB8520BD2C9D8243B /* Pods-GCYBase_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DDB4A99EBF73D64712CD5D9549FEDF6 /* Pods-GCYBase_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A67D90A1E2A0B444E7B9919B94750515 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
@@ -43,6 +45,8 @@
 		3E818C95208DB56700AFDC8E /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		3E818C97208DB56700AFDC8E /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 		3E818C98208DB56700AFDC8E /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		3E818C9E208DBCE400AFDC8E /* GCYNetworkConfigure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GCYNetworkConfigure.h; path = ../../GCYBase/BaseModule/BaseNetwork/GCYNetworkConfigure.h; sourceTree = "<group>"; };
+		3E818C9F208DBCE400AFDC8E /* GCYNetworkConfigure.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = GCYNetworkConfigure.m; path = ../../GCYBase/BaseModule/BaseNetwork/GCYNetworkConfigure.m; sourceTree = "<group>"; };
 		509FCC1182EA8EC38D85642F4AFC41F3 /* Pods-GCYBase_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GCYBase_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6AA8632FB80DC718D9C5122A53502450 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -116,6 +120,8 @@
 		3E818C8F208DB39200AFDC8E /* BaseNetwork */ = {
 			isa = PBXGroup;
 			children = (
+				3E818C9E208DBCE400AFDC8E /* GCYNetworkConfigure.h */,
+				3E818C9F208DBCE400AFDC8E /* GCYNetworkConfigure.m */,
 			);
 			path = BaseNetwork;
 			sourceTree = "<group>";
@@ -238,6 +244,7 @@
 			files = (
 				3E818C9B208DB56700AFDC8E /* BaseViewController.h in Headers */,
 				58254A755A998EB9348CB59E155EC986 /* GCYBase-umbrella.h in Headers */,
+				3E818CA0208DBCE400AFDC8E /* GCYNetworkConfigure.h in Headers */,
 				3E818C9D208DB56700AFDC8E /* UIView+Frame.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -323,6 +330,7 @@
 				3E818C9C208DB56700AFDC8E /* UIView+Frame.m in Sources */,
 				3E818C99208DB56700AFDC8E /* ReplaceMe.m in Sources */,
 				3E818C9A208DB56700AFDC8E /* BaseViewController.m in Sources */,
+				3E818CA1208DBCE400AFDC8E /* GCYNetworkConfigure.m in Sources */,
 				3464B99794AFF9D06E762592C2D364C7 /* GCYBase-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
