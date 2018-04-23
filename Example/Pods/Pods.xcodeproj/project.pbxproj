@@ -134,9 +134,25 @@
 			path = GCYBase/Classes/Resources;
 			sourceTree = "<group>";
 		};
+		3E818C8E208DB36100AFDC8E /* BaseModule */ = {
+			isa = PBXGroup;
+			children = (
+				3E818C8F208DB39200AFDC8E /* BaseNetwork */,
+			);
+			path = BaseModule;
+			sourceTree = "<group>";
+		};
+		3E818C8F208DB39200AFDC8E /* BaseNetwork */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BaseNetwork;
+			sourceTree = "<group>";
+		};
 		796366D35B0542ACE4178AFD10007B11 /* GCYBase */ = {
 			isa = PBXGroup;
 			children = (
+				3E818C8E208DB36100AFDC8E /* BaseModule */,
 				0DE5A863AE2E7CA08D4EADF3F8D08423 /* ReplaceMe.m */,
 				3E40C81C2088AB3900351B26 /* Resources */,
 				3E40C8132088A11D00351B26 /* BaseView */,
