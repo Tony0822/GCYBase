@@ -1,6 +1,6 @@
 use_frameworks!
 target 'GCYBase_Tests' do
   pod 'GCYBase', :path => '../'
-  
+#  pod 'AFNetworking', '~> 3.1.0'
   
 end

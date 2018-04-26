@@ -10,6 +10,10 @@
 #endif
 #endif
 
+#import "GCYNetworkingBase.h"
+#import "GCYNetworkingConfigure.h"
+#import "BaseViewController.h"
+#import "UIView+Frame.h"
 
 FOUNDATION_EXPORT double GCYBaseVersionNumber;
 FOUNDATION_EXPORT const unsigned char GCYBaseVersionString[];

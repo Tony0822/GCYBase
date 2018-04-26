@@ -1,22 +1,25 @@
 {
   "name": "GCYBase",
-  "version": "0.1.0",
-  "summary": "A short description of GCYBase.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "0.1.4",
+  "summary": "基础控件集成",
+  "description": "主要是平常常用的控件, 能让你快速开发, 喜欢开发",
   "homepage": "https://github.com/Tony0822/GCYBase",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "Tony0822": "gaochongyang@enmonster.com"
+    "Tony0822": "constyang@163.com"
   },
   "source": {
     "git": "https://github.com/Tony0822/GCYBase.git",
-    "tag": "0.1.0"
+    "tag": "0.1.4"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "GCYBase/Classes/**/*"
+  "source_files": [
+    "GCYBase",
+    "GCYBase/**/*"
+  ]
 }
