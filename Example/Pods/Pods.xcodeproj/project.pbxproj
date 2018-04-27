@@ -13,6 +13,8 @@
 		2DD1AC22EA3D1032C1A3B4174FC7A404 /* scan@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = 60F166222DBEC2D90C5F4336D784FEEB /* scan@3x.png */; };
 		30D1A92D990680D952BF00ED19E013C1 /* scan@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 65E082F2A398A7298150ABA372D967A2 /* scan@2x.png */; };
 		3DBD835B25F125D312675DE0C1CE4677 /* scanline@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = C42E19C2DEF0F552983F30CD281C0119 /* scanline@3x.png */; };
+		3E818E6E2092BD2300AFDC8E /* BaseJsonUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E818E6C2092BD2300AFDC8E /* BaseJsonUtil.h */; };
+		3E818E6F2092BD2300AFDC8E /* BaseJsonUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E818E6D2092BD2300AFDC8E /* BaseJsonUtil.m */; };
 		4D9E0A97EC4099D45B8E284870AEC58D /* GCYBase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 98C247E617B92873284FEF6297B7A5A0 /* GCYBase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4DE4513A889329F6D59E9AEFC5F6CE0F /* scanline@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 99766C8EFE2A65638BFBC7B16DFA7C1B /* scanline@2x.png */; };
 		5B6DD4E321CD955560FB53AE64BE2B73 /* BaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = AFB20D2C64138E7E603E54875C7DA2A6 /* BaseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -41,6 +43,8 @@
 		2A3B915A61C88E00C3D13A3BD03031B5 /* UIView+Frame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 		387D2C6AF755C19B4C663A8F8F67BB54 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D19F6ABBF9410D081818C04238DDA3F /* Pods-GCYBase_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GCYBase_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3E818E6C2092BD2300AFDC8E /* BaseJsonUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseJsonUtil.h; sourceTree = "<group>"; };
+		3E818E6D2092BD2300AFDC8E /* BaseJsonUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseJsonUtil.m; sourceTree = "<group>"; };
 		509FCC1182EA8EC38D85642F4AFC41F3 /* Pods-GCYBase_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GCYBase_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		54D4885D424530339CDBEE27CA5CB116 /* qrcode_found.wav */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.wav; path = qrcode_found.wav; sourceTree = "<group>"; };
 		5E1B5DAC73727D0B53910590FDFE8E03 /* GCYBase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GCYBase-prefix.pch"; sourceTree = "<group>"; };
@@ -91,6 +95,7 @@
 		01A5E9BFFE40BEB75E42603106835EAD /* BaseModule */ = {
 			isa = PBXGroup;
 			children = (
+				3E818E6B2092BCFF00AFDC8E /* Common */,
 				161BE6186DC1CBC74C8B08E722BE7FFC /* BaseNetwork */,
 			);
 			name = BaseModule;
@@ -134,6 +139,15 @@
 			children = (
 			);
 			path = BaseNetwork;
+			sourceTree = "<group>";
+		};
+		3E818E6B2092BCFF00AFDC8E /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				3E818E6C2092BD2300AFDC8E /* BaseJsonUtil.h */,
+				3E818E6D2092BD2300AFDC8E /* BaseJsonUtil.m */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 		458D8DE6B60B6963A51F03D0A40E8789 /* Resources */ = {
@@ -261,6 +275,7 @@
 				5B6DD4E321CD955560FB53AE64BE2B73 /* BaseViewController.h in Headers */,
 				4D9E0A97EC4099D45B8E284870AEC58D /* GCYBase-umbrella.h in Headers */,
 				721109554C9544DA4D63B8037468C0F2 /* UIView+Frame.h in Headers */,
+				3E818E6E2092BD2300AFDC8E /* BaseJsonUtil.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,6 +353,7 @@
 				273515962CFD41871F6A3E5D98CE15F8 /* GCYBase-dummy.m in Sources */,
 				71EE20DB073D0A59EEEC0C48329DA6B6 /* qrcode_found.wav in Sources */,
 				1335482E6B611D98A90DB56232DB23B3 /* ReplaceMe.m in Sources */,
+				3E818E6F2092BD2300AFDC8E /* BaseJsonUtil.m in Sources */,
 				30D1A92D990680D952BF00ED19E013C1 /* scan@2x.png in Sources */,
 				2DD1AC22EA3D1032C1A3B4174FC7A404 /* scan@3x.png in Sources */,
 				4DE4513A889329F6D59E9AEFC5F6CE0F /* scanline@2x.png in Sources */,
