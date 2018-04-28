@@ -30,8 +30,30 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'GCYBase', 'GCYBase/**/*'
-  
+#  s.source_files = 'GCYBase', 'GCYBase/**/*'
+
+###Base
+s.subspec 'Base' do |base|
+    ###Category
+    base.subspec 'Category' do |category|
+        category.source_file = 'GCYBase/Base/Category/**/*'
+    end
+end
+
+###BaseModule
+s.subspec 'BaseModule' do |m|
+    ### BaseView
+    m.subspec 'BaseView' do |baseview|
+        baseview.source_file = 'GCYBase/BaseModule/BaseView/**/*'
+    end
+    ### Common
+    m.subspec 'Common' do |common|
+        common.source_file = 'GCYBase/BaseModule/Common/**/*'
+    end
+
+end
+
+
   # s.resource_bundles = {
   #   'GCYBase' => ['GCYBase/Assets/*.png']
   # }

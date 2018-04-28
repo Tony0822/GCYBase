@@ -8,13 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		0B06DF9FD5D97C3ACE90F24B9ACCB633 /* Pods-GCYBase_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C43382DB1490F904DB19AA9D68C7049 /* Pods-GCYBase_Tests-dummy.m */; };
-		1335482E6B611D98A90DB56232DB23B3 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 18688D44BF2689708AEF6BDDAB782B53 /* ReplaceMe.m */; };
 		273515962CFD41871F6A3E5D98CE15F8 /* GCYBase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E869DC6BACF45065C75E58B2951D942 /* GCYBase-dummy.m */; };
 		2DD1AC22EA3D1032C1A3B4174FC7A404 /* scan@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = 60F166222DBEC2D90C5F4336D784FEEB /* scan@3x.png */; };
 		30D1A92D990680D952BF00ED19E013C1 /* scan@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 65E082F2A398A7298150ABA372D967A2 /* scan@2x.png */; };
 		3DBD835B25F125D312675DE0C1CE4677 /* scanline@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = C42E19C2DEF0F552983F30CD281C0119 /* scanline@3x.png */; };
 		3E818E6E2092BD2300AFDC8E /* BaseJsonUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E818E6C2092BD2300AFDC8E /* BaseJsonUtil.h */; };
 		3E818E6F2092BD2300AFDC8E /* BaseJsonUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E818E6D2092BD2300AFDC8E /* BaseJsonUtil.m */; };
+		3E818EB820941BB800AFDC8E /* GCYBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E818EB720941BB800AFDC8E /* GCYBase.h */; };
+		3E818EBD2094237300AFDC8E /* ReaderViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E818EBB2094237300AFDC8E /* ReaderViewController.h */; };
+		3E818EBE2094237300AFDC8E /* ReaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E818EBC2094237300AFDC8E /* ReaderViewController.m */; };
 		4D9E0A97EC4099D45B8E284870AEC58D /* GCYBase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 98C247E617B92873284FEF6297B7A5A0 /* GCYBase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4DE4513A889329F6D59E9AEFC5F6CE0F /* scanline@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 99766C8EFE2A65638BFBC7B16DFA7C1B /* scanline@2x.png */; };
 		5B6DD4E321CD955560FB53AE64BE2B73 /* BaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = AFB20D2C64138E7E603E54875C7DA2A6 /* BaseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -38,13 +40,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		18688D44BF2689708AEF6BDDAB782B53 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = GCYBase/ReplaceMe.m; sourceTree = "<group>"; };
 		1C43382DB1490F904DB19AA9D68C7049 /* Pods-GCYBase_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GCYBase_Tests-dummy.m"; sourceTree = "<group>"; };
 		2A3B915A61C88E00C3D13A3BD03031B5 /* UIView+Frame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 		387D2C6AF755C19B4C663A8F8F67BB54 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D19F6ABBF9410D081818C04238DDA3F /* Pods-GCYBase_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GCYBase_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3E818E6C2092BD2300AFDC8E /* BaseJsonUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseJsonUtil.h; sourceTree = "<group>"; };
 		3E818E6D2092BD2300AFDC8E /* BaseJsonUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseJsonUtil.m; sourceTree = "<group>"; };
+		3E818EB720941BB800AFDC8E /* GCYBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCYBase.h; sourceTree = "<group>"; };
+		3E818EBB2094237300AFDC8E /* ReaderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReaderViewController.h; sourceTree = "<group>"; };
+		3E818EBC2094237300AFDC8E /* ReaderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReaderViewController.m; sourceTree = "<group>"; };
 		509FCC1182EA8EC38D85642F4AFC41F3 /* Pods-GCYBase_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GCYBase_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		54D4885D424530339CDBEE27CA5CB116 /* qrcode_found.wav */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.wav; path = qrcode_found.wav; sourceTree = "<group>"; };
 		5E1B5DAC73727D0B53910590FDFE8E03 /* GCYBase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GCYBase-prefix.pch"; sourceTree = "<group>"; };
@@ -95,6 +99,9 @@
 		01A5E9BFFE40BEB75E42603106835EAD /* BaseModule */ = {
 			isa = PBXGroup;
 			children = (
+				8AACC4EA5BD66180174260A01B233832 /* BaseView */,
+				3E818EBA20941E0D00AFDC8E /* ScanCode */,
+				3E818EB920941DE000AFDC8E /* Test */,
 				3E818E6B2092BCFF00AFDC8E /* Common */,
 				161BE6186DC1CBC74C8B08E722BE7FFC /* BaseNetwork */,
 			);
@@ -144,10 +151,36 @@
 		3E818E6B2092BCFF00AFDC8E /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				3E818EB720941BB800AFDC8E /* GCYBase.h */,
 				3E818E6C2092BD2300AFDC8E /* BaseJsonUtil.h */,
 				3E818E6D2092BD2300AFDC8E /* BaseJsonUtil.m */,
 			);
 			path = Common;
+			sourceTree = "<group>";
+		};
+		3E818EB920941DE000AFDC8E /* Test */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Test;
+			sourceTree = "<group>";
+		};
+		3E818EBA20941E0D00AFDC8E /* ScanCode */ = {
+			isa = PBXGroup;
+			children = (
+				3E818EBB2094237300AFDC8E /* ReaderViewController.h */,
+				3E818EBC2094237300AFDC8E /* ReaderViewController.m */,
+			);
+			path = ScanCode;
+			sourceTree = "<group>";
+		};
+		3E818EBF20943BB300AFDC8E /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				458D8DE6B60B6963A51F03D0A40E8789 /* Resources */,
+				7723BF6349C5ACE423E95DB6DB3B3F10 /* Category */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 		458D8DE6B60B6963A51F03D0A40E8789 /* Resources */ = {
@@ -155,18 +188,14 @@
 			children = (
 				93E5BF0910DFBE0761B0A257B39679E3 /* QRCode.bundle */,
 			);
-			name = Resources;
-			path = GCYBase/Resources;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		74AF618D3CB31007AD7BFE41A9A12031 /* GCYBase */ = {
 			isa = PBXGroup;
 			children = (
-				18688D44BF2689708AEF6BDDAB782B53 /* ReplaceMe.m */,
+				3E818EBF20943BB300AFDC8E /* Base */,
 				01A5E9BFFE40BEB75E42603106835EAD /* BaseModule */,
-				8AACC4EA5BD66180174260A01B233832 /* BaseView */,
-				7723BF6349C5ACE423E95DB6DB3B3F10 /* Category */,
-				458D8DE6B60B6963A51F03D0A40E8789 /* Resources */,
 				0596C5A21CE9E86B1E43D37193CB8475 /* Support Files */,
 			);
 			name = GCYBase;
@@ -179,8 +208,7 @@
 				A7F1A7A500BA8D4FA56FE3243ADFEE3A /* UIView+Frame.h */,
 				2A3B915A61C88E00C3D13A3BD03031B5 /* UIView+Frame.m */,
 			);
-			name = Category;
-			path = GCYBase/Category;
+			path = Category;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -200,8 +228,7 @@
 				AFB20D2C64138E7E603E54875C7DA2A6 /* BaseViewController.h */,
 				9FB5DEA4391DF6EB9C69B336CE4F24E3 /* BaseViewController.m */,
 			);
-			name = BaseView;
-			path = GCYBase/BaseView;
+			path = BaseView;
 			sourceTree = "<group>";
 		};
 		93E5BF0910DFBE0761B0A257B39679E3 /* QRCode.bundle */ = {
@@ -272,7 +299,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E818EB820941BB800AFDC8E /* GCYBase.h in Headers */,
 				5B6DD4E321CD955560FB53AE64BE2B73 /* BaseViewController.h in Headers */,
+				3E818EBD2094237300AFDC8E /* ReaderViewController.h in Headers */,
 				4D9E0A97EC4099D45B8E284870AEC58D /* GCYBase-umbrella.h in Headers */,
 				721109554C9544DA4D63B8037468C0F2 /* UIView+Frame.h in Headers */,
 				3E818E6E2092BD2300AFDC8E /* BaseJsonUtil.h in Headers */,
@@ -351,8 +380,8 @@
 			files = (
 				D46D4A885167F5D1A1862A840E2F7796 /* BaseViewController.m in Sources */,
 				273515962CFD41871F6A3E5D98CE15F8 /* GCYBase-dummy.m in Sources */,
+				3E818EBE2094237300AFDC8E /* ReaderViewController.m in Sources */,
 				71EE20DB073D0A59EEEC0C48329DA6B6 /* qrcode_found.wav in Sources */,
-				1335482E6B611D98A90DB56232DB23B3 /* ReplaceMe.m in Sources */,
 				3E818E6F2092BD2300AFDC8E /* BaseJsonUtil.m in Sources */,
 				30D1A92D990680D952BF00ED19E013C1 /* scan@2x.png in Sources */,
 				2DD1AC22EA3D1032C1A3B4174FC7A404 /* scan@3x.png in Sources */,
