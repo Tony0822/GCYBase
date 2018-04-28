@@ -17,6 +17,8 @@
 		3E818EB820941BB800AFDC8E /* GCYBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E818EB720941BB800AFDC8E /* GCYBase.h */; };
 		3E818EBD2094237300AFDC8E /* ReaderViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E818EBB2094237300AFDC8E /* ReaderViewController.h */; };
 		3E818EBE2094237300AFDC8E /* ReaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E818EBC2094237300AFDC8E /* ReaderViewController.m */; };
+		3E818EC920945B6300AFDC8E /* TestObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E818EC720945B6200AFDC8E /* TestObject.h */; };
+		3E818ECA20945B6300AFDC8E /* TestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E818EC820945B6200AFDC8E /* TestObject.m */; };
 		4D9E0A97EC4099D45B8E284870AEC58D /* GCYBase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 98C247E617B92873284FEF6297B7A5A0 /* GCYBase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4DE4513A889329F6D59E9AEFC5F6CE0F /* scanline@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 99766C8EFE2A65638BFBC7B16DFA7C1B /* scanline@2x.png */; };
 		5B6DD4E321CD955560FB53AE64BE2B73 /* BaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = AFB20D2C64138E7E603E54875C7DA2A6 /* BaseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -49,6 +51,8 @@
 		3E818EB720941BB800AFDC8E /* GCYBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCYBase.h; sourceTree = "<group>"; };
 		3E818EBB2094237300AFDC8E /* ReaderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReaderViewController.h; sourceTree = "<group>"; };
 		3E818EBC2094237300AFDC8E /* ReaderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReaderViewController.m; sourceTree = "<group>"; };
+		3E818EC720945B6200AFDC8E /* TestObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestObject.h; path = Test/TestObject.h; sourceTree = "<group>"; };
+		3E818EC820945B6200AFDC8E /* TestObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestObject.m; path = Test/TestObject.m; sourceTree = "<group>"; };
 		509FCC1182EA8EC38D85642F4AFC41F3 /* Pods-GCYBase_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GCYBase_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		54D4885D424530339CDBEE27CA5CB116 /* qrcode_found.wav */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.wav; path = qrcode_found.wav; sourceTree = "<group>"; };
 		5E1B5DAC73727D0B53910590FDFE8E03 /* GCYBase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GCYBase-prefix.pch"; sourceTree = "<group>"; };
@@ -161,6 +165,8 @@
 		3E818EB920941DE000AFDC8E /* Test */ = {
 			isa = PBXGroup;
 			children = (
+				3E818EC720945B6200AFDC8E /* TestObject.h */,
+				3E818EC820945B6200AFDC8E /* TestObject.m */,
 			);
 			name = Test;
 			sourceTree = "<group>";
@@ -299,6 +305,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E818EC920945B6300AFDC8E /* TestObject.h in Headers */,
 				3E818EB820941BB800AFDC8E /* GCYBase.h in Headers */,
 				5B6DD4E321CD955560FB53AE64BE2B73 /* BaseViewController.h in Headers */,
 				3E818EBD2094237300AFDC8E /* ReaderViewController.h in Headers */,
@@ -382,6 +389,7 @@
 				273515962CFD41871F6A3E5D98CE15F8 /* GCYBase-dummy.m in Sources */,
 				3E818EBE2094237300AFDC8E /* ReaderViewController.m in Sources */,
 				71EE20DB073D0A59EEEC0C48329DA6B6 /* qrcode_found.wav in Sources */,
+				3E818ECA20945B6300AFDC8E /* TestObject.m in Sources */,
 				3E818E6F2092BD2300AFDC8E /* BaseJsonUtil.m in Sources */,
 				30D1A92D990680D952BF00ED19E013C1 /* scan@2x.png in Sources */,
 				2DD1AC22EA3D1032C1A3B4174FC7A404 /* scan@3x.png in Sources */,
