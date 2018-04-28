@@ -36,23 +36,23 @@ Pod::Spec.new do |s|
 s.subspec 'Base' do |base|
     ###Category
     base.subspec 'Category' do |category|
-        category.source_file = 'GCYBase/Base/Category/**/*'
+        category.source_files = 'GCYBase/Base/Category/**/*'
     end
 end
 
 ###BaseModule
 s.subspec 'BaseModule' do |m|
     ### BaseView
-    m.subspec 'BaseView' do |baseview|
-        baseview.source_file = 'GCYBase/BaseModule/BaseView/**/*'
-    end
+#  m.subspec 'BaseView' do |baseview|
+#     baseview.source_file = 'GCYBase/BaseModule/BaseView/**/*'
+# end
     ### Common
-    m.subspec 'Common' do |common|
-        common.source_file = 'GCYBase/BaseModule/Common/**/*'
-    end
+# m.subspec 'Common' do |common|
+#     common.source_file = 'GCYBase/BaseModule/Common/**/*'
+# end
     ### Test
     m.subspec 'Test' do |test|
-        test.source_file = 'GCYBase/BaseModule/Test/**/*'
+        test.source_files = 'GCYBase/BaseModule/Test/**/*'
     end
 end
 
