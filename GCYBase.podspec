@@ -50,7 +50,10 @@ s.subspec 'BaseModule' do |m|
     m.subspec 'Common' do |common|
         common.source_file = 'GCYBase/BaseModule/Common/**/*'
     end
-
+    ### Test
+    m.subspec 'Test' do |test|
+        test.source_file = 'GCYBase/BaseModule/Test/**/*'
+    end
 end
 
 
