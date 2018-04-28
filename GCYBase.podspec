@@ -32,30 +32,31 @@ Pod::Spec.new do |s|
 
 #  s.source_files = 'GCYBase', 'GCYBase/**/*'
 
-###Base
-s.subspec 'Base' do |base|
-    ###Category
-    base.subspec 'Category' do |category|
-        category.source_files = 'GCYBase/Base/Category/**/*'
+    ###Base
+    s.subspec 'Base' do |base|
+        ###Category
+        base.subspec 'Category' do |category|
+            category.source_files = 'GCYBase/Base/Category/**/*'
+        end
     end
-end
 
-###BaseModule
-s.subspec 'BaseModule' do |m|
-    ### BaseView
-#  m.subspec 'BaseView' do |baseview|
-#     baseview.source_file = 'GCYBase/BaseModule/BaseView/**/*'
-# end
-    ### Common
-# m.subspec 'Common' do |common|
-#     common.source_file = 'GCYBase/BaseModule/Common/**/*'
-# end
-    ### Test
-    m.subspec 'Test' do |test|
-        test.source_files = 'GCYBase/BaseModule/Test/**/*'
+    ###BaseModule
+    s.subspec 'BaseModule' do |m|
+        ### VC
+        m.subspec 'VC' do |vc|
+            vc.source_file = 'GCYBase/BaseModule/VC/**/*'
+        end
+        ### Common
+        m.subspec 'Common' do |common|
+            common.source_file = 'GCYBase/BaseModule/Common/**/*'
+        end
+        ### ScanCode
+        m.subspec 'ScanCode' do |scancode|
+            scancode.source_files = 'GCYBase/BaseModule/ScanCode/**/*'
+        end
     end
-end
 
+    s.resources = "GCYBase/Assets/*"
 
   # s.resource_bundles = {
   #   'GCYBase' => ['GCYBase/Assets/*.png']
