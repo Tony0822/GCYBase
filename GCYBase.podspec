@@ -44,11 +44,11 @@ Pod::Spec.new do |s|
     s.subspec 'BaseModule' do |m|
         ### VC
         m.subspec 'VC' do |vc|
-            vc.source_file = 'GCYBase/BaseModule/VC/**/*'
+            vc.source_files = 'GCYBase/BaseModule/VC/**/*'
         end
         ### Common
         m.subspec 'Common' do |common|
-            common.source_file = 'GCYBase/BaseModule/Common/**/*'
+            common.source_files = 'GCYBase/BaseModule/Common/**/*'
         end
         ### ScanCode
         m.subspec 'ScanCode' do |scancode|
