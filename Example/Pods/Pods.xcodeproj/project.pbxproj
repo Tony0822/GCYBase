@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		0B06DF9FD5D97C3ACE90F24B9ACCB633 /* Pods-GCYBase_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C43382DB1490F904DB19AA9D68C7049 /* Pods-GCYBase_Tests-dummy.m */; };
 		273515962CFD41871F6A3E5D98CE15F8 /* GCYBase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E869DC6BACF45065C75E58B2951D942 /* GCYBase-dummy.m */; };
+		3E3F5F4E209AB05000D94351 /* BaseScanCodeManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E3F5F4C209AB05000D94351 /* BaseScanCodeManager.h */; };
+		3E3F5F4F209AB05000D94351 /* BaseScanCodeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3F5F4D209AB05000D94351 /* BaseScanCodeManager.m */; };
 		3E818EE120945DE600AFDC8E /* UIView+Frame.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E818EDF20945DE600AFDC8E /* UIView+Frame.h */; };
 		3E818EE220945DE600AFDC8E /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E818EE020945DE600AFDC8E /* UIView+Frame.m */; };
 		3E818EF720945F3500AFDC8E /* BaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E818EF520945F3500AFDC8E /* BaseViewController.h */; };
@@ -38,6 +40,8 @@
 		1C43382DB1490F904DB19AA9D68C7049 /* Pods-GCYBase_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GCYBase_Tests-dummy.m"; sourceTree = "<group>"; };
 		387D2C6AF755C19B4C663A8F8F67BB54 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D19F6ABBF9410D081818C04238DDA3F /* Pods-GCYBase_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GCYBase_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3E3F5F4C209AB05000D94351 /* BaseScanCodeManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BaseScanCodeManager.h; path = GCYBase/BaseModule/ScanCode/BaseScanCodeManager.h; sourceTree = "<group>"; };
+		3E3F5F4D209AB05000D94351 /* BaseScanCodeManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BaseScanCodeManager.m; path = GCYBase/BaseModule/ScanCode/BaseScanCodeManager.m; sourceTree = "<group>"; };
 		3E818EDF20945DE600AFDC8E /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Frame.h"; path = "GCYBase/Base/Category/UIView+Frame.h"; sourceTree = "<group>"; };
 		3E818EE020945DE600AFDC8E /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Frame.m"; path = "GCYBase/Base/Category/UIView+Frame.m"; sourceTree = "<group>"; };
 		3E818EF520945F3500AFDC8E /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseViewController.h; path = GCYBase/BaseModule/VC/BaseViewController.h; sourceTree = "<group>"; };
@@ -178,6 +182,8 @@
 			children = (
 				3E818EF920945F7D00AFDC8E /* ReaderViewController.h */,
 				3E818EFA20945F7D00AFDC8E /* ReaderViewController.m */,
+				3E3F5F4C209AB05000D94351 /* BaseScanCodeManager.h */,
+				3E3F5F4D209AB05000D94351 /* BaseScanCodeManager.m */,
 			);
 			name = ScanCode;
 			sourceTree = "<group>";
@@ -271,6 +277,7 @@
 			files = (
 				4D9E0A97EC4099D45B8E284870AEC58D /* GCYBase-umbrella.h in Headers */,
 				3E818EF720945F3500AFDC8E /* BaseViewController.h in Headers */,
+				3E3F5F4E209AB05000D94351 /* BaseScanCodeManager.h in Headers */,
 				3E818EE120945DE600AFDC8E /* UIView+Frame.h in Headers */,
 				3E818F0820945FFC00AFDC8E /* GCYBase.h in Headers */,
 				3E818EFB20945F7D00AFDC8E /* ReaderViewController.h in Headers */,
@@ -348,6 +355,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E3F5F4F209AB05000D94351 /* BaseScanCodeManager.m in Sources */,
 				3E818EE220945DE600AFDC8E /* UIView+Frame.m in Sources */,
 				3E818EF820945F3500AFDC8E /* BaseViewController.m in Sources */,
 				273515962CFD41871F6A3E5D98CE15F8 /* GCYBase-dummy.m in Sources */,
