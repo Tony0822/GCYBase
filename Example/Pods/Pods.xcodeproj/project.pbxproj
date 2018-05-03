@@ -11,6 +11,8 @@
 		273515962CFD41871F6A3E5D98CE15F8 /* GCYBase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E869DC6BACF45065C75E58B2951D942 /* GCYBase-dummy.m */; };
 		3E3F5F4E209AB05000D94351 /* BaseScanCodeManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E3F5F4C209AB05000D94351 /* BaseScanCodeManager.h */; };
 		3E3F5F4F209AB05000D94351 /* BaseScanCodeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3F5F4D209AB05000D94351 /* BaseScanCodeManager.m */; };
+		3E3F5F5A209AB7BF00D94351 /* JSBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3F5F58209AB7BF00D94351 /* JSBridge.m */; };
+		3E3F5F5B209AB7BF00D94351 /* JSBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E3F5F59209AB7BF00D94351 /* JSBridge.h */; };
 		3E818EE120945DE600AFDC8E /* UIView+Frame.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E818EDF20945DE600AFDC8E /* UIView+Frame.h */; };
 		3E818EE220945DE600AFDC8E /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E818EE020945DE600AFDC8E /* UIView+Frame.m */; };
 		3E818EF720945F3500AFDC8E /* BaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E818EF520945F3500AFDC8E /* BaseViewController.h */; };
@@ -42,6 +44,10 @@
 		3D19F6ABBF9410D081818C04238DDA3F /* Pods-GCYBase_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GCYBase_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3E3F5F4C209AB05000D94351 /* BaseScanCodeManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BaseScanCodeManager.h; path = GCYBase/BaseModule/ScanCode/BaseScanCodeManager.h; sourceTree = "<group>"; };
 		3E3F5F4D209AB05000D94351 /* BaseScanCodeManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BaseScanCodeManager.m; path = GCYBase/BaseModule/ScanCode/BaseScanCodeManager.m; sourceTree = "<group>"; };
+		3E3F5F56209AB7BF00D94351 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = index.html; path = GCYBase/BaseModule/JSBridge/index.html; sourceTree = "<group>"; };
+		3E3F5F57209AB7BF00D94351 /* bridge.js.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = bridge.js.txt; path = GCYBase/BaseModule/JSBridge/bridge.js.txt; sourceTree = "<group>"; };
+		3E3F5F58209AB7BF00D94351 /* JSBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSBridge.m; path = GCYBase/BaseModule/JSBridge/JSBridge.m; sourceTree = "<group>"; };
+		3E3F5F59209AB7BF00D94351 /* JSBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSBridge.h; path = GCYBase/BaseModule/JSBridge/JSBridge.h; sourceTree = "<group>"; };
 		3E818EDF20945DE600AFDC8E /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Frame.h"; path = "GCYBase/Base/Category/UIView+Frame.h"; sourceTree = "<group>"; };
 		3E818EE020945DE600AFDC8E /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Frame.m"; path = "GCYBase/Base/Category/UIView+Frame.m"; sourceTree = "<group>"; };
 		3E818EF520945F3500AFDC8E /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseViewController.h; path = GCYBase/BaseModule/VC/BaseViewController.h; sourceTree = "<group>"; };
@@ -123,6 +129,17 @@
 			path = "Example/Pods/Target Support Files/GCYBase";
 			sourceTree = "<group>";
 		};
+		3E3F5F55209AB74700D94351 /* JSBridge */ = {
+			isa = PBXGroup;
+			children = (
+				3E3F5F57209AB7BF00D94351 /* bridge.js.txt */,
+				3E3F5F56209AB7BF00D94351 /* index.html */,
+				3E3F5F59209AB7BF00D94351 /* JSBridge.h */,
+				3E3F5F58209AB7BF00D94351 /* JSBridge.m */,
+			);
+			name = JSBridge;
+			sourceTree = "<group>";
+		};
 		3E818ED320945CA400AFDC8E /* Base */ = {
 			isa = PBXGroup;
 			children = (
@@ -143,6 +160,7 @@
 		3E818EE520945E6100AFDC8E /* BaseModule */ = {
 			isa = PBXGroup;
 			children = (
+				3E3F5F55209AB74700D94351 /* JSBridge */,
 				3E818EE820945E9500AFDC8E /* Common */,
 				3E818EE920945E9D00AFDC8E /* BaseNetwork */,
 				3E818EEA20945ED200AFDC8E /* ScanCode */,
@@ -277,6 +295,7 @@
 			files = (
 				4D9E0A97EC4099D45B8E284870AEC58D /* GCYBase-umbrella.h in Headers */,
 				3E818EF720945F3500AFDC8E /* BaseViewController.h in Headers */,
+				3E3F5F5B209AB7BF00D94351 /* JSBridge.h in Headers */,
 				3E3F5F4E209AB05000D94351 /* BaseScanCodeManager.h in Headers */,
 				3E818EE120945DE600AFDC8E /* UIView+Frame.h in Headers */,
 				3E818F0820945FFC00AFDC8E /* GCYBase.h in Headers */,
@@ -361,6 +380,7 @@
 				273515962CFD41871F6A3E5D98CE15F8 /* GCYBase-dummy.m in Sources */,
 				3E818EFC20945F7D00AFDC8E /* ReaderViewController.m in Sources */,
 				3E818F0720945FFC00AFDC8E /* BaseJsonUtil.m in Sources */,
+				3E3F5F5A209AB7BF00D94351 /* JSBridge.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
