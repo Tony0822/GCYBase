@@ -20,13 +20,13 @@
 
 @implementation BaseScanCodeManager
 
-+ (instancetype)shareScanCodeManager {
-    static BaseScanCodeManager *_scanCodeManager;
++ (BaseScanCodeManager *)shareScanCodeManager {
+    static BaseScanCodeManager *scanCodeManager = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        _scanCodeManager = [[self alloc] init];
+        scanCodeManager = [[BaseScanCodeManager alloc] init];
     });
-    return _scanCodeManager;
+    return scanCodeManager;
 }
 
 - (void)startScanCode:(UIViewController *)viewController success:(ScanCodeSuccessBlock)success error:(ScanCodeErrorBlock)error {

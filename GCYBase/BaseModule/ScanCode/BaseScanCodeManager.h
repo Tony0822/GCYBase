@@ -11,7 +11,7 @@ typedef void (^ScanCodeSuccessBlock)(NSString *result);
 typedef void (^ScanCodeErrorBlock)();
 
 @interface BaseScanCodeManager : NSObject
-+ (instancetype)shareScanCodeManager;
++ (BaseScanCodeManager *)shareScanCodeManager;
 
 /**
  相机扫码
