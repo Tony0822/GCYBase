@@ -21,6 +21,7 @@
 		3E77185B20A194BD0078A858 /* BasePhotoGroupModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E77185920A194BD0078A858 /* BasePhotoGroupModel.m */; };
 		3E77186120A19C7D0078A858 /* BaseFileHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E77185F20A19C7D0078A858 /* BaseFileHelper.h */; };
 		3E77186220A19C7D0078A858 /* BaseFileHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E77186020A19C7D0078A858 /* BaseFileHelper.m */; };
+		3E77186420A1A8770078A858 /* BaseConst.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E77186320A1A8770078A858 /* BaseConst.h */; };
 		3E818EE120945DE600AFDC8E /* UIView+Frame.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E818EDF20945DE600AFDC8E /* UIView+Frame.h */; };
 		3E818EE220945DE600AFDC8E /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E818EE020945DE600AFDC8E /* UIView+Frame.m */; };
 		3E818EF720945F3500AFDC8E /* BaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E818EF520945F3500AFDC8E /* BaseViewController.h */; };
@@ -55,7 +56,6 @@
 		3E3F5F57209AB7BF00D94351 /* bridge.js.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = bridge.js.txt; path = GCYBase/BaseModule/JSBridge/bridge.js.txt; sourceTree = "<group>"; };
 		3E3F5F58209AB7BF00D94351 /* JSBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSBridge.m; path = GCYBase/BaseModule/JSBridge/JSBridge.m; sourceTree = "<group>"; };
 		3E3F5F59209AB7BF00D94351 /* JSBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSBridge.h; path = GCYBase/BaseModule/JSBridge/JSBridge.h; sourceTree = "<group>"; };
-		3E77184920A191A10078A858 /* BaseConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseConst.h; sourceTree = "<group>"; };
 		3E77184C20A194300078A858 /* BasePhotoAuthor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BasePhotoAuthor.m; path = GCYBase/BaseModule/Photo/Manager/BasePhotoAuthor.m; sourceTree = "<group>"; };
 		3E77184D20A194300078A858 /* BasePhotoAuthor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasePhotoAuthor.h; path = GCYBase/BaseModule/Photo/Manager/BasePhotoAuthor.h; sourceTree = "<group>"; };
 		3E77185020A1946D0078A858 /* BasePhotoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BasePhotoModel.h; path = GCYBase/BaseModule/Photo/Model/BasePhotoModel.h; sourceTree = "<group>"; };
@@ -64,6 +64,7 @@
 		3E77185920A194BD0078A858 /* BasePhotoGroupModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BasePhotoGroupModel.m; path = GCYBase/BaseModule/Photo/Model/BasePhotoGroupModel.m; sourceTree = "<group>"; };
 		3E77185F20A19C7D0078A858 /* BaseFileHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BaseFileHelper.h; path = GCYBase/BaseModule/Common/BaseFileHelper.h; sourceTree = "<group>"; };
 		3E77186020A19C7D0078A858 /* BaseFileHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BaseFileHelper.m; path = GCYBase/BaseModule/Common/BaseFileHelper.m; sourceTree = "<group>"; };
+		3E77186320A1A8770078A858 /* BaseConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseConst.h; path = GCYBase/BaseModule/Common/BaseConst.h; sourceTree = "<group>"; };
 		3E818EDF20945DE600AFDC8E /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Frame.h"; path = "GCYBase/Base/Category/UIView+Frame.h"; sourceTree = "<group>"; };
 		3E818EE020945DE600AFDC8E /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Frame.m"; path = "GCYBase/Base/Category/UIView+Frame.m"; sourceTree = "<group>"; };
 		3E818EF520945F3500AFDC8E /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseViewController.h; path = GCYBase/BaseModule/VC/BaseViewController.h; sourceTree = "<group>"; };
@@ -226,11 +227,11 @@
 		3E818EE820945E9500AFDC8E /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				3E77186320A1A8770078A858 /* BaseConst.h */,
 				3E818F0320945FFC00AFDC8E /* BaseJsonUtil.h */,
 				3E818F0420945FFC00AFDC8E /* BaseJsonUtil.m */,
 				3E77185F20A19C7D0078A858 /* BaseFileHelper.h */,
 				3E77186020A19C7D0078A858 /* BaseFileHelper.m */,
-				3E77184920A191A10078A858 /* BaseConst.h */,
 			);
 			name = Common;
 			sourceTree = "<group>";
@@ -347,6 +348,7 @@
 				3E818EE120945DE600AFDC8E /* UIView+Frame.h in Headers */,
 				3E818EFB20945F7D00AFDC8E /* ReaderViewController.h in Headers */,
 				3E77186120A19C7D0078A858 /* BaseFileHelper.h in Headers */,
+				3E77186420A1A8770078A858 /* BaseConst.h in Headers */,
 				3E818F0620945FFC00AFDC8E /* BaseJsonUtil.h in Headers */,
 				3E77185220A1946D0078A858 /* BasePhotoModel.h in Headers */,
 				3E77185A20A194BD0078A858 /* BasePhotoGroupModel.h in Headers */,

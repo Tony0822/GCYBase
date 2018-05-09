@@ -12,7 +12,7 @@
 #define SCREEN_HEIGHT ([UIScreen mainScreen].bounds.size.height)
 
 #define FONTSIZE(x) [UIFont systemFontOfSize:x]
-
+#define PADDING 10 // 默认间距
 #define WEAK_SELF(value) __weak typeof(self) value = self
 
 // 判断是否是iPhone X
